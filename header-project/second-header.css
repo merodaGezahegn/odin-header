@@ -1,0 +1,65 @@
+.header > ul{
+display: flex;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+ 
+}
+
+.side{
+  
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+ul > li{
+    list-style: none;
+    width: 100px;
+    height: max-content;
+    color: rebeccapurple;
+    display: inline-flex;
+
+}
+
+.links{
+    display: inline-flex;
+}
+
+.logo{
+    display: inline-flex;
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.item{
+    margin: 10px;
+    padding: 4px;
+}
+
+.circle{
+    background: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.nav-left {
+
+    width: max-content;
+    padding: 5px 10px;
+}
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
