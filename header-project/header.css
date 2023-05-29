@@ -1,0 +1,27 @@
+.header {
+    font-family: monospace;
+    background: papayawhip;
+    height: 100px;
+    padding: 6px;
+    background: rgb(236, 208, 172);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 100px;
+    border: 1px solid white;
+    background-color: white;
+    gap: 5px;
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    color: blue;
+  }
+  .logo {
+    margin-left: 220px;
+    margin-right: 220px;
+    color: red;
+    align-self: center;
+  }
+  
